@@ -1,0 +1,74 @@
+body
+{
+	background-color:#34c8c7;
+	height:100%;
+}
+
+
+input
+{
+	font-size: 60pt;
+	text-align:center;
+}
+
+input.text
+{
+	width: 50%;
+	border: 0px solid #fff;
+	color: black;
+	text-shadow:1px 2px 1px #000000;
+    border-bottom-width: 6px;
+    right: 7px; 
+    box-shadow: 0 20px 20px -20px #000000;
+    background-color: transparent; 
+}
+
+input.button
+{
+	width: 20%;
+	margin:3%;
+}
+
+#message
+{
+    position:relative;
+    top:20%;
+    font-size: 40pt;
+	text-align:center;
+	color:white;
+	text-transform:capitalize;
+	text-shadow:1px 2px 1px #000000;
+}
+
+input::-webkit-input-placeholder
+{
+    color:white;
+}
+
+input:-moz-placeholder 
+{
+    color:white;
+}
+
+input[placeholder], [placeholder], *[placeholder]
+{
+    color:white !important;
+}
+#form
+{
+    text-align:center;
+}
+
+#imgarrow
+{
+    height:60px;
+    position:relative;
+    left:5%;
+    background-image:url(images/arrowNG.gif); 
+}
+
+text
+{
+    font-size:50pt;
+}
+
